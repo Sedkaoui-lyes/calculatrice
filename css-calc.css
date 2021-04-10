@@ -1,0 +1,42 @@
+
+body{
+    margin: 0;
+}
+
+.calculatrice{
+    width: 100%;
+    height: 50rem;
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    width: 16%;
+    height: 42rem;
+    background-color: gray;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: flex-end;
+    flex-wrap: wrap;
+    border-radius: 1rem;
+    margin-top: 5rem;
+}
+button{
+    width: 5rem;
+    height: 5rem;
+    margin: 0;
+    font-weight: 500;
+    font-size: 40px ;
+    border-radius: 0.8rem;
+}
+#screen{
+    width: 18rem;
+    height: 7rem;
+    background-color: white;
+    border-radius: 1rem;
+    margin-bottom: 3rem;
+    text-align:center;
+    font-size: 3rem;
+}
